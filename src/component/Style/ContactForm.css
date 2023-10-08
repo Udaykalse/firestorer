@@ -1,0 +1,81 @@
+/* ContactForm.css */
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #14131f;
+    color: white;
+  }
+  
+  .contact-image {
+    width: 500px; /* Adjust the width as needed */
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 70% 20% 70% 70%;
+  }
+  
+  .form-container {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    border: none;
+    border-bottom: 1px solid hsl(0, 29%, 97%);
+    padding: 5px;
+    margin: 0 10px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #14131f;
+  }
+  
+  .icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #0130fe;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .line {
+    border-top: 1px solid white;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  

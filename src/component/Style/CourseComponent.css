@@ -1,0 +1,102 @@
+.mainDiv {
+    text-align: center;
+    margin: 20px;
+    background-color: #FFFEFE;
+  }
+
+  #mainHeading {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: black;
+    margin-right: 60%;
+  }
+  
+
+  #mainSubHeading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    margin-right: 76%;
+  }
+
+  #Button {
+    background-color: #0130fe;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-bottom: 30px;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black !important;
+    background-color: #F3F2F5 !important;
+  }
+  
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #F3F2F5;
+  }
+  
+  /* Course card title */
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black !important;
+    background-color: #F3F2F5;
+  }
+  
+  /* Course card price */
+  .card p:nth-child(2) {
+    /* font-size: 16px;
+    color:black;
+    background-color: #F3F2F5;
+    margin-left: 100% !important; */
+  }
+  
+  /* Course card description */
+  .card p:nth-child(3) {
+    /* font-size: 14px;
+    margin-top: 10px;
+    color:black;
+    background-color: #F3F2F5 !important; */
+  }
+  
+  /* "Learn More" button inside the card */
+  .card button {
+    /* background-color: #F3F2F5; */
+    color: rgb(178, 217, 214);
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Hover effect for course cards */
+  .card:hover {
+    /* background-color: #F3F2F5; */
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  

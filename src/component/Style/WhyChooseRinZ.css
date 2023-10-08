@@ -1,0 +1,105 @@
+
+.why-choose-rinz {
+    text-align: center;
+    padding: 30px;
+    background-color: #14131f;
+    /* height: 500px; */
+  }
+  
+  #Heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #FEFEFE;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    flex-wrap: wrap;
+  }
+
+  
+  
+  .left {
+    flex: 1;
+    max-width: 30%;
+    background-image: url('../assets/s3.webp')  ;
+    border-radius:  650px 10% 250px 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  
+  .right {
+    flex: 1;
+    max-width: 50%;
+    /* padding: auto 100px; */
+
+  }
+  
+  .feature {
+    margin-bottom: 2px;
+    text-align: center;
+    padding: auto;
+  }
+  
+.why-choose-rinz .icon {
+    font-size: 30px;
+    margin-right: 50%;
+    color: #16245A;
+    margin-top: 20px;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+ .feature #headingone{
+    font-size: 20px;
+    color: #FEFEFE;
+    margin-top: -40px !important;
+  }
+  
+  p {
+    font-size: 10px;
+    color: #FEFEFE;
+    margin-top: 10px;
+    margin-left: 60px;
+
+  }
+.feature #fourpara{
+    margin-right: 75px;
+}
+#headingFour{
+    margin-right: 70px;
+    color: #FEFEFE;
+    font-size: 20px;
+    margin-top: -40px !important;
+}
+
+#headingthree{
+    margin-right: 20px;
+    color: #FEFEFE;
+    font-size: 20px;
+    margin-top: -40px !important;
+}
+
+#headingtwo{
+    margin-right: 30px;
+    color: #FEFEFE;
+    font-size: 20px;
+    margin-top:-40px !important;
+}
+
+#paratwo{
+    margin-right: 20px;
+}
+
+#one{
+    margin-right: -40px;
+    margin-top: 10px;
+}
